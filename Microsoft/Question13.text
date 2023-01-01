@@ -1,0 +1,9 @@
+//Probability of an event = Number of outcomes favourable to the event / Total Number of Outcomes
+
+
+
+class Solution {
+    public double nthPersonGetsNthSeat(int n) {
+        return n==1? (double) 1:0.5;
+    }
+}
